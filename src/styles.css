@@ -1,4 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
+
+.mainform {
+  display: flex;
+  justify-content: center;
+}
+
+.mainbutton {
+  margin: auto 15px;
+}
+

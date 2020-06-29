@@ -12,7 +12,7 @@ const TodoList = ({ todos, deleteTodo }) => (
         {todos.map((todo, index) => (
             <ListItem key={index.toString()} dense button>
                 <Checkbox tabIndex={-1} disableRipple />
-                <ListItemText primary={todo} />
+                <ListItemText primary={todo}/>
                 <ListItemSecondaryAction>
                     <IconButton aria-label="Delete"
                     onClick={() => {
